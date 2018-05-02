@@ -28,4 +28,3 @@ done
 	    c=$(grep 'myhost' $HOST_PATH | grep -oE '\b[0-9]{1,3}(\.[0-9]{1,3}){3}\b')
    exit
      fi
-       echo "'$variable' myhost" | mail -s "IP-Address" Zhora3tonn@ukr.net
